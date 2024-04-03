@@ -1,0 +1,62 @@
+[
+  {
+    "id": 3,
+    "firstname": "Micaela",
+    "middlename": "Esperanza",
+    "lastname": "Guerrero",
+    "phonenumber": 1127776584,
+    "birthdate": "2007-04-17T00:00:00.000Z",
+    "weight": 50,
+    "sex": "Mujer"
+  },
+  {
+    "id": 2,
+    "firstname": "Maia",
+    "middlename": "Pilar",
+    "lastname": "Benitez",
+    "phonenumber": 1122334488,
+    "birthdate": "2011-01-22T14:00:30.688Z",
+    "weight": 40,
+    "sex": "Mujer"
+  },
+  {
+    "id": 5,
+    "firstname": "Brian",
+    "middlename": "Alexis",
+    "lastname": "Benitez",
+    "phonenumber": 1122516395,
+    "birthdate": "2003-07-31T00:00:00.000Z",
+    "weight": 65,
+    "sex": "Hombre"
+  },
+  {
+    "id": 6,
+    "firstname": "Franco",
+    "middlename": "Roman",
+    "lastname": "Benitez",
+    "phonenumber": 1136823920,
+    "birthdate": "2009-12-26T00:00:00.000Z",
+    "weight": 40,
+    "sex": "Hombre"
+  },
+  {
+    "id": 7,
+    "firstname": "Victoria",
+    "middlename": "",
+    "lastname": "D'alegre Francioni",
+    "phonenumber": 1136823920,
+    "birthdate": "2007-01-20T00:00:00.000Z",
+    "weight": 55,
+    "sex": "Mujer"
+  },
+  {
+    "id": 8,
+    "firstname": "Micaela",
+    "middlename": "Esperanza",
+    "lastname": "Guerrero",
+    "phonenumber": 1127776584,
+    "birthdate": "2007-04-17T00:00:00.000Z",
+    "weight": 55,
+    "sex": "Mujer"
+  }
+]

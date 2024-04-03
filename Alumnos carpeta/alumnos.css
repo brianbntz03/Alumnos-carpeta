@@ -1,0 +1,86 @@
+body{
+    background: rgb(5, 236, 236);
+}
+
+.titulo{
+    background-color:rgba(216, 11, 11, 0.779);
+    color: aliceblue;
+    display:block;
+}
+
+nav{
+    background: #1a2929;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    text-decoration: dotted;
+    text-align:left;
+    font-size:medium;
+}
+
+h2{
+    color: rgb(239, 239, 239);
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.Menu{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    color: rgb(98, 139, 124);
+    background-color: rgb(101, 118, 112);
+}
+
+.Menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Menu li:hover{
+    background-color: rgba(0, 0, 0, 0.901);
+}
+
+.Casa{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(37, 24, 24, 0.835);
+}
+
+.Menu li:hover .Casa{
+    display: block;
+}
+
+.Casa li:hover{
+    background-color: rgb(156, 123, 123);
+}
+
+.Casa li a{
+    display: block;
+    color:  rgb(246, 244, 244);
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.tabla-de-alumnos{
+    margin: 1px auto;
+    font-style:initial;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 0px;
+}

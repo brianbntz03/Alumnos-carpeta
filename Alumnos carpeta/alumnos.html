@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alumnos</title>
+    <link rel="stylesheet" href="alumnos.css" />
+  </head>
+  <body>
+    <div class="titulo">
+      <h2 id="crudtitle"> CLUB MARCIAL </h2>
+      <nav> 
+        <ul class="Menu">
+        <li class="list">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            width="20" 
+            height="20" 
+            fill="currentColor" 
+            class="bi bi-list" 
+            viewBox="0 0 16 16">
+              <path fill-rule="evenodd" 
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </a>
+            <ul class="Casa">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="alumnos.html">Alumnos</a></li>
+              <li><a href="categorias.html">Categorías</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="tabla-de-alumnos">
+      <form id="crudform">
+      <input type="text"  name="nombre" placeholder="Nombre">
+      <input type="text"  name="segundo nombre" placeholder="segundo nombre"><br>
+      <input type="text"  name="apellido" placeholder="Apellido">
+      <input type="text"  name="telefono" placeholder="telefono"><br>
+      <input type="text"  name="nacimiento" placeholder="nacimiento">
+      <input type="text"  name="Sexo" placeholder="Sexo">
+      <input type="submit" value="enviar">
+      </form>
+      <br>
+      <table id="crudtable">
+        <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>segundo nombre</th>
+          <th>Apellido</th>
+          <th>numero de telefono</th>
+          <th>nacimiento</th>      
+          <th>peso</th>
+          <th>Sexo</th>
+        </tr>
+        <template id="crudtemplate">
+        <tr>
+          <td class="nombre"></td>
+          <td class="segundo_nombre"></td>
+          <td class="apellido"></td>
+          <td class="telefono"></td>
+          <td class="nacimiento"></td>
+          <td class="peso"></td>
+          <td class="Sexo"></td>
+          <button class="delete">eliminar</button>
+          <button class="edit">editar</button>
+        </tr>
+      </template>
+      </thead>
+      <tbody id="contenido">
+      </tbody>
+      </table>
+    </div>
+    </header>
+    <script src="alumnos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
